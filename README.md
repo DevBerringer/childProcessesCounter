@@ -1,7 +1,8 @@
-# child Processes Counter
+# Child Processes Counter
 Author: Blake Berringer
+## For use on linux machines
 
-## run through command line 
+## Run through command line 
 
 Suppose your program is compile to ‘a.out’. If you run ‘./a.out input_filename 5’, the program should create 5 child processes to do the task. Use ‘g++ -std=c++11 count_num.c’ to compile the code.
 
