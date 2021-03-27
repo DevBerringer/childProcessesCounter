@@ -4,7 +4,7 @@ Author: Blake Berringer
 
 ## Run through command line 
 
-Suppose your program is compile to ‘a.out’. If you run ‘./a.out input_filename 5’, the program should create 5 child processes to do the task. Use ‘g++ -std=c++11 count_num.c’ to compile the code.
+Suppose your program is compile to ‘a.out’. If you run ‘./a.out input_filename 5’, the program should create 5 child processes to do the task. Use ‘g++ -std=c++11 count_num.c’ to compile the code using file comunication. Use g++ -std=c++11 count_num_mmap.c to use shared memory.
 
 
 counts the number of times a number occurs in an input file -- mostly used for practice with Child and parent processes.
